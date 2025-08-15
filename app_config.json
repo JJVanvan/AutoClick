@@ -1,0 +1,31 @@
+{
+  "global": {
+    "geometry": "460x400",
+    "last_tab": 0
+  },
+  "recorder": {
+    "hotkeys": {
+      "toggle_record": "<f9>",
+      "toggle_play": "<f10>"
+    },
+    "params": {
+      "interval": 0.1,
+      "speed": 1.0,
+      "loops": 1,
+      "gap": 0.0,
+      "delay": 0.0
+    },
+    "last_file": null
+  },
+  "clicker": {
+    "hotkeys": {
+      "start_stop": "<f7>",
+      "add_marker": "<f6>"
+    },
+    "params": {
+      "loops": 1,
+      "delay": 0.0
+    },
+    "markers": []
+  }
+}
