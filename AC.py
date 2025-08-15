@@ -16,7 +16,7 @@ from pynput.keyboard import Key, KeyCode, Listener as KeyListener, GlobalHotKeys
 # Global Config / Hotkey Manager
 # ==============================
 
-APP_TITLE = "AutoClick v2.1.1"
+APP_TITLE = "AutoClick v1.0.0"
 DEFAULT_GEOMETRY = "460x400"
 APP_ICON = "click.ico"
 CONFIG_FILE = "app_config.json"
@@ -414,7 +414,7 @@ class ClickerPage(ttk.Frame):
 
 ——
 💡 小技巧
-🎯 方向键移动坐标；Shift ×10 步长
+🎯 方向键移动坐标；↑↓←→ 键移动1px; 按住 Shift ×10px 步长
 🔄 多标记将按列表顺序循环点击
         '''
         text.insert(tk.END, help_content)
@@ -1212,7 +1212,7 @@ class RecorderPage(ttk.Frame):
 
 ——
 💡 小技巧
-🖱️ 录制会采集：鼠标移动 / 点击 / 滚轮
+🖱️ 录制会采集：鼠标移动 / 点击 / 滚轮 / 键盘操作
 ⌨️ 热键：F9 开始/停止录制；F10 开始/停止回放
 ⚠️ 正在录制时 → 回放按钮禁用
 ⚠️ 正在回放时 → 录制按钮禁用
